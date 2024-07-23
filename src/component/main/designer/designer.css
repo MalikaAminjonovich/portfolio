@@ -1,0 +1,48 @@
+
+.designer-info{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 25px;
+     margin-bottom: 25px;
+}
+.designer-info_left p{
+     color:#FF5E69;
+     font-size: 22px;
+     font-family: sans-serif;
+}
+.designer-info_left h1{
+     font-family: sans-serif;
+     font-size: 35px;
+     font-weight: 700;
+}
+.designer-info_right p{
+    font-size: 18px;
+    line-height:  28px;
+    color: #666666;
+}
+.designer-image{
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 2fr 1fr;
+     justify-content: space-between;
+     gap: 10px;
+}
+ .designer-image_phone img{
+     width: 310px;
+     height: 100%;
+} 
+.designer-image_boy img{
+     width: 470px;
+}
+.designer-image_laptop{
+     width: 300px;
+} 
+.designer-image_notebook> img{
+     margin-bottom: 12px;
+     width: 300px;
+     height: 280px;
+}.designer-image_girls>img{
+     width: 300px;
+     height: 280px;
+} 

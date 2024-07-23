@@ -1,0 +1,52 @@
+header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+
+.logoPortfolio{
+     font-size: 20px;
+     text-decoration: none;
+     color: black;
+}
+
+.logoPortfolio:hover{
+     color: orange;
+     transition: 0.5s;
+     border-radius: 5px;
+     
+}
+.logoPortfolio:active{
+     color: green;
+     transition: 0.5s;
+     border-radius: 5px;
+     
+}
+.logopit ul{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     list-style: none;
+}
+
+.logopit ul a{
+     text-decoration: none;
+     color: black;
+     font-size: 18px;
+     word-spacing: none
+}
+
+.logopit ul a:hover{
+     color: orangered;
+     transition: 0.5s;
+     border-radius: 5px;
+     
+}
+
+.logopit ul a:active{
+     color: green;
+     transition: 0.5s;
+     border-radius: 5px;
+}

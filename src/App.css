@@ -1,0 +1,61 @@
+.app {
+  width: 100%;
+  min-height: 100dvh;
+  background: #fff;
+}
+
+/* general css start */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+/* general css end */
+
+/* reusable css start */
+.container {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.title {
+  font-family: var(--roboto);
+  font-size: var(--secondary-fs);
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 4px;
+}
+
+.subtitle {
+  font-family: var(--roboto);
+  font-size: var(--bigger-fs);
+  font-weight: 700;
+  line-height: 59.4px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-family: var(--roboto);
+  font-size: var(--small-fs);
+  font-weight: 400;
+  line-height: 18px;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+/* reusable css end */
