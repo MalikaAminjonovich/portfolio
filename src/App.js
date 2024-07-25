@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Header from "./component/header/Header";
 import Home from "./component/main/home/Home";
 import Services from "./component/main/servives/Services";
@@ -10,7 +11,6 @@ import Testimonial from "./component/main/Testimonial/Testimonial";
 import FAQ from "./component/main/FAQ/FAQ";
 import Footer from "./component/Footer/Footer";
 import Designer from "./component/main/designer/Designer";
-
 function App() {
   return (
     <div className="app">
